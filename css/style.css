@@ -1,0 +1,443 @@
+﻿/*Isso é chamado de Reset, é uma tentativa de padronizar o comportamento em todos navegadores*/
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height: 100%;
+	font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+/*Fim Reset*/
+
+
+/*Estilos Globais*/
+
+.container {
+	min-height: 100%;
+	position: relative;
+}
+
+.top {
+	text-align: center;
+	width: 100%;
+}
+
+.top figure img {
+	display: inline-block;
+	width: 50%;
+}
+
+#menu ul {
+	padding: 0px;
+	margin: 0px;
+	background-color: #007f97;
+	list-style: none;
+	font-weight: bolder;
+}
+
+#menu ul li {
+	display: inline-block;
+	padding-left: 2%;
+	padding-right: 2%;
+	background-color: rgba(255, 255, 255, 0);
+	transition: background-color ease-in-out .30s
+}
+
+#menu ul li a {
+	padding: 2px 10px;
+	display: inline-block;
+	/* visual do link */
+	font-size: 1.5em;
+	color: white;
+	text-decoration: none;
+	border-bottom: 3px transparent;
+}
+
+#menu ul li:hover {
+	background-color: #73ab1591;
+	transition: background-color ease-in-out .30s;
+	color: white;
+	border-bottom: 3px solid #6df2ff;
+}
+
+#menu ul li#current-page {
+	border-bottom: 3px solid #6df2ff;
+}
+
+.main-content {
+	text-align: center;
+	margin: 40px;
+}
+
+.footer {
+	text-align: center;
+	position: absolute;
+	top: 100%;
+	background-color: #007f97;
+	width: 100%;
+	min-height: 60px;
+	color: white;
+}
+
+.footer-component {
+	width: 100%;
+	height: 100%;
+}
+
+.footer-itens {
+	display: inline-block;
+}
+
+.footer-component .contact {
+	float: left;
+	font-size: 12px;
+}
+
+.footer-component .contact ul {
+	list-style: none
+}
+.footer-component .contact a{
+	text-decoration: none;
+	color: #a7d0f3
+}
+
+.footer-component .cp-rights {
+	font-size: 14px;
+	margin-top: 2%
+}
+
+.social-media-buttons {
+	font-size:4em;
+}
+.social-media-buttons a{
+	color: #52a8b8;
+	transition: color ease-in-out .3s;
+	text-decoration: none;
+}
+.social-media-buttons a:hover{
+	color: rgb(38, 60, 253);
+	transition: color ease-in-out .3s
+}
+.social-media-buttons h6{
+	margin: 0;
+	font-size: 0.3em
+}
+
+.footer-component .social-media-buttons {
+	font-size:2.5em;
+	float: right;
+	margin: 15px 30px
+}
+
+.footer-component .social-media-buttons a{
+	color: white;
+}
+
+.footer-component .social-media-buttons a:hover{
+	color: rgb(109, 245, 255);
+	transition: color ease-in-out .3s
+}
+/*Fim Estilos Globais*/
+
+
+/*Estilo da Pagina*/
+.main-content figure, .main-content #content-index{
+	width: 70%;
+	display: inline-block;
+}
+.main-content #banner-content {
+	display: inline-block;
+	width: 70%;
+	min-width: 220px;
+}
+.banner-main{
+	width: 100%
+}
+#content-index{
+	min-width: 220px;
+	background: linear-gradient(to left, #e6fdc24f, #91bf4a4f);
+	margin-bottom: 10px;
+	color: black;
+}
+#content-index div{
+	width: 45%;
+	text-align: center;
+	margin-top: 2%;
+	display: inline-block
+}
+#content-index img{
+	width: 45%;
+	float: right;
+	display: block
+}
+
+/*Fim Estilo da Pagina*/
+
+/*Estlo Pagina Sobre*/
+
+.content-sobre{
+	margin:0 auto;
+	max-width: 70%;
+	background-color: #007f97bf;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	color: white;
+	display: inline-block;
+	text-align: center;
+}
+
+.content-sobre div{
+	text-align: justify;
+	margin-top: 2%;
+	padding: 20px;
+}
+
+.content-sobre p{
+	margin: 1px 15px 1px 15px;
+	padding: 15px;
+}
+
+.content-sobre  #logosobre{
+	float: right;
+	margin-top: 88px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 1px;
+	width: 28%;
+}
+
+.content-sobre-branco{
+	margin:0 auto;
+	max-width: 70%;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	color: black;
+	display: inline-block;
+	text-align: center;
+}
+
+.content-sobre-branco div{
+	text-align: justify;
+	margin-top: 2%;
+	padding: 20px;
+}
+
+.content-sobre-branco p{
+	margin: 1px 15px 1px 15px;
+	padding: 15px;
+}
+
+.content-sobre-branco  #logosobre{
+	float: left;
+	margin-top: 88px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 1px;
+	width: 15%;
+}
+
+/*Fim Estilo Pagina Sobre*/
+
+/*Estilo Pagina Serviços*/
+
+.content-servicos{
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	margin: 10px 0 10px 0;
+}
+
+.content-servicos table{
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.content-servicos tr td{
+	width: 50%;
+	padding: 10px;
+}
+
+.content-servicos div{
+	margin: 0 auto;
+	width: 100%;
+	height: 400px;
+	display: inline-block;
+	background-color: #97c4363b;
+}
+
+.content-servicos img {
+	max-width: 250px;
+	height: 185px;
+	margin-top: 15px;
+}
+
+.content-servicos p {
+	text-align: justify;
+	padding: 10px;
+}
+
+/*Fim Estilo Pagina Serviços*/
+
+
+/*Estilo Pagina Contato*/
+
+.content-contato{
+	width: 70%;
+	display: inline-block;
+	margin: 10px 0 10px 0;
+}
+
+.container-contato-sup{
+	width: 100%;
+	display: inline-block;
+}
+
+#formulario{
+	float:left;
+	margin: 20px;
+	width: 45%;
+}
+
+#contatos{
+	padding-top: 50px;
+	float: left;
+	width: 45%;
+	height: 295px;
+}
+
+.icon-contato{
+	font-size:2.5em;
+	color:#52a8b8;
+	margin-left: 60px;
+	float: left;
+	width: 50px
+}
+
+.text-contatos p{
+	float: left;
+	width: 50%;
+	text-align: left;
+	margin-left: 10px;
+}
+
+form {
+	margin: 0 auto;
+	margin-bottom: 20px;
+	width: 400px;
+	padding: 1em;
+	border: 1px solid #c6c7c8;
+	background-color: #007e9733;
+	box-sizing: border-box
+}
+
+.form-div {
+	margin-bottom: 1rem;
+}
+
+.form-element {
+	display: block;
+	width: 100%;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #a3d1ff;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+label {
+	display: inline-block;
+	float: left;
+	margin-bottom: .5rem;
+}
+
+textarea {
+	resize: vertical
+}
+
+input,
+textarea {
+	font: 1em sans-serif;
+	width: 300px;
+	box-sizing: border-box;
+	border-color: none;
+	transition: border-color 1s ease-in-out
+}
+
+input:focus,
+textarea:focus {
+	border: 2px solid #3661ef;
+	transition: border-color .50s ease-in-out
+}
+
+.btn {
+	padding-left: 90px;
+}
+
+.btn {
+	margin-left: .5em;
+}
+
+.btn {
+	background-color: rgb(255, 255, 255);
+	transition: background-color ease-in-out .30s;
+	padding: 6px 12px;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	border-color: #CCC;
+	outline: none;
+	font: inherit;
+}
+
+input {
+	display: block;
+	width: 100%;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	overflow: visible;
+}
+
+.btn:hover {
+	color: #333;
+	text-decoration: none;
+	background-color: #007e9733;
+	transition: background-color ease-in-out .30s;
+	border-color: #8c8c8c
+}
+
+textarea {
+	display: block;
+	width: 100%;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+.socialbuttons-contato img{
+	width: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/*Fim Estilo Pagina Contato*/
