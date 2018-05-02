@@ -1,0 +1,315 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    font-family: "Helvetica Neue",Helvetica,sans-serif;
+}
+
+
+.container{
+	min-width: 490px;
+	max-width: 960px;
+	margin: 0 auto;
+	min-height: 100%;
+	position: relative;
+}
+
+.banner{
+	max-width: 100%;
+}
+
+nav {
+	background-color: #007f97;
+	height: 40px;
+	text-align: center;
+	margin: 0 auto;
+	min-width: 500px;
+	font-size: 20px;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0 auto;
+	padding-top: 8px;
+	max-width: 960px;
+}
+
+nav ul li {
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 17px;
+	padding-bottom: 5px;
+}
+
+
+nav a{
+	text-decoration: none;
+	color: white;
+	font-family: Gill Sans, sans-serif;
+	font-weight: 600;
+}
+
+nav a:hover {
+	padding-bottom: 5px;
+	border-bottom: 3px solid white;
+}
+nav a #pagAtual{
+	border-bottom: 3px solid #6df2ff;
+}
+
+.promo{
+	max-width: 100%;
+}
+
+footer{
+	background-color: #b5b7b7;
+	width: 101%;
+	color: white;
+	margin: -0% -1%;
+	margin-bottom: -1%;
+}
+
+.footer{
+	display: inline-block;
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 3px;
+}
+
+#footer1{
+	width: 80%;	
+}
+
+#footer2{
+	width: 15%;	
+}
+
+.iconmedia{
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top: 5px;
+	width: 20px;
+}
+
+#content-index{
+	margin:0 auto;
+	min-width: 660px;
+	max-width: 100%;
+	background-color: #91bf4a4f;
+	margin-bottom: 10px;
+	color: black;
+	display: inline-block;
+}
+
+#content-index div{
+	width: 45%;
+	float: left;
+	text-align: center;
+	margin-top: 2%;
+	padding: 20px;
+}
+
+#content-index img{
+	width: 45%;
+	float: left;
+}
+
+.imgfachada{
+	width: 95%;
+	margin: 0 auto;
+
+}
+
+.content-sobre{
+	margin:0 auto;
+	min-width: 660px;
+	max-width: 100%;
+	background-color: #007f97bf;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	color: white;
+	display: inline-block;
+	text-align: center;
+}
+
+.content-sobre div{
+	text-align: justify;
+	margin-top: 2%;
+	padding: 20px;
+}
+
+.content-sobre p{
+	margin: 1px 15px 1px 15px;
+	padding: 15px;
+}
+
+.content-sobre  #logosobre{
+	float: right;
+	margin-top: 88px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 1px;
+	width: 28%;
+}
+
+.content-sobre-branco{
+	margin:0 auto;
+	min-width: 660px;
+	max-width: 100%;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	color: black;
+	display: inline-block;
+	text-align: center;
+}
+
+.content-sobre-branco div{
+	text-align: justify;
+	margin-top: 2%;
+	padding: 20px;
+}
+
+.content-sobre-branco p{
+	margin: 1px 15px 1px 15px;
+	padding: 15px;
+}
+
+.content-sobre-branco  #logosobre{
+	float: left;
+	margin-top: 88px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 1px;
+	width: 15%;
+}
+
+.content-servicos{
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	margin: 10px 0 10px 0;
+}
+
+.content-servicos table{
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.content-servicos tr td{
+	width: 50%;
+	padding: 10px;
+}
+
+.content-servicos div{
+	margin: 0 auto;
+	width: 100%;
+	height: 400px;
+	display: inline-block;
+	background-color: #97c4363b;
+}
+
+.content-servicos img {
+	width: 50%;
+}
+
+.content-servicos p {
+	text-align: justify;
+	padding: 10px;
+}
+
+.content-contato{
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	margin: 10px 0 10px 0;
+}
+
+.container-contato-sup{
+	width: 100%;
+	display: inline-block;
+}
+
+#formulario{
+	float:left;
+	margin: 20px;
+	width: 45%;
+}
+
+#contatos{
+	padding-top: 50px;
+	float: left;
+	width: 45%;
+	height: 295px;
+}
+
+.icon-contato{
+	margin-left: 60px;
+	float: left;
+	width: 50px;
+}
+
+.icon-contato img{
+	width: 50px;
+}
+
+
+.text-contatos p{
+	float: left;
+	width: 50%;
+	text-align: left;
+	margin-left: 10px;
+}
+
+form{
+	margin: 0 auto;
+	width: 300px;
+	padding: 1em;
+	border:5px solid #a2cb3fb8;
+	border-radius: 1em;
+}
+
+form div + div {
+	margin-top: 1em;
+}
+
+label{
+	display: inline-block;
+	width: 90px;
+	text-align: right;
+}
+
+input, textarea {
+	font: 1em sans-serif;
+	width: 200px;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+	border: 1px solid #999;
+}
+
+input:focus, textarea:focus{
+	border-color: #ef4e36;
+}
+
+textarea{
+	vertical-align: top;
+	height: 5em;
+	resize: vertical;
+}
+
+.button{
+	padding-left: 90px;
+}
+
+button {
+	margin-left: .5em;
+}
+
+.socialbuttons-contato img{
+	width: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
