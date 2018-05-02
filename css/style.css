@@ -64,6 +64,7 @@ body {
 
 #menu ul li#current-page {
 	border-bottom: 3px solid #6df2ff;
+	background-color: #00000028
 }
 
 .main-content {
