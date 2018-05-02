@@ -56,7 +56,7 @@ body {
 }
 
 #menu ul li:hover {
-	background-color: #73ab1591;
+	background-color: #00000028;
 	transition: background-color ease-in-out .30s;
 	color: white;
 	border-bottom: 3px solid #6df2ff;
